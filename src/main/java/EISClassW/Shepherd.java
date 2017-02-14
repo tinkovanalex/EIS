@@ -21,4 +21,9 @@ public class Shepherd extends Dog{
     public void catchBadGuy(){
         System.out.println("Gotcha");
     }
+
+    @Override
+    public void voice(){
+        System.out.println("Bark");
+    }
 }
