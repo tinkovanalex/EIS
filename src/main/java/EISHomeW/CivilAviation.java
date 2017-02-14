@@ -24,4 +24,18 @@ public class CivilAviation extends Aircraft {
     public void causeFlightAttendant(){
         System.out.println("Flight Attendant came");
     }
+
+
+    public void turnOnAutopilot() {
+        System.out.println("Autopilot is turned on");
+    }
+
+    public void turnOffAutopilot() {
+        System.out.println("Autopilot is turned off");
+    }
+
+    public void refuil() {
+        System.out.println("The plane is refuil");
+    }
+
 }

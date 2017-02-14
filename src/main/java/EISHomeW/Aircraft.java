@@ -3,7 +3,7 @@ package EISHomeW;
 /**
  * Created by Alex on 09.02.2017.
  */
-public class Aircraft {
+abstract class Aircraft implements Autopilot, RefuelAircraft{
 
         private String name;
         private String type; //PassengerCarrying, CargoCarrying, // Shturmovik
