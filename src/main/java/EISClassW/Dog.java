@@ -80,4 +80,39 @@ public class Dog extends Animal implements Moveable{
     public void move() {
         System.out.println("I run");
     }
+
+//    public boolean equals (Object anotherDog){
+//        if((Dog)anotherDog == null) return false;
+//        if(((Dog)anotherDog).getAge() == this.getAge()
+//            && ((Dog)anotherDog).getSex() == this.getSex()
+//                && ((Dog)anotherDog).getName().equals(this.getName())){
+//            return true;
+//        }
+//        return false;
+//    }
+//
+//    public int hashCode(){
+//        return age * 42 * sex * 31 - name.length() * 3;
+//    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Dog dog = (Dog) o;
+
+        if (age != dog.age) return false;
+        if (sex != dog.sex) return false;
+        return name != null ? name.equals(dog.name) : dog.name == null;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + age;
+        result = 31 * result + (int) sex;
+        return result;
+    }
 }
