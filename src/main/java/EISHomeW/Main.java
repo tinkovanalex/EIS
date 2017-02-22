@@ -43,7 +43,7 @@ public class Main {
         an168.extendTheLandingGear();
         an168.land();
         an168.turnOffAutopilot();
-        an168.turnOnAutopilot();
+        an168.turnOnAutopilot("AAAAAAAAAAAAA");
         an168.takeOff();
 
         test(an168);

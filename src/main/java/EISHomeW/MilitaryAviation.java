@@ -24,7 +24,7 @@ public class MilitaryAviation extends Aircraft{
         System.out.println("Tra-ta-ta-ta-ta-ta-ta-ta");
     }
 
-    public void turnOnAutopilot(){
+    public void turnOnAutopilot(String name){
         System.out.println("Tha Autopilot is turned on, be careful speed is so high");
     }
 

@@ -10,4 +10,6 @@ public class PassengerCarrying extends CivilAviation {
         super(name, type, age, numberOfPassengers);
     }
 
+
+
 }

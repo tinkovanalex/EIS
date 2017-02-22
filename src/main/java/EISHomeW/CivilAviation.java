@@ -26,8 +26,8 @@ public class CivilAviation extends Aircraft {
     }
 
 
-    public void turnOnAutopilot() {
-        System.out.println("Autopilot is turned on");
+    public void turnOnAutopilot(String name) {
+        System.out.println("Autopilot is turned on" + name);
     }
 
     public void turnOffAutopilot() {

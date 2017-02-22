@@ -5,7 +5,8 @@ package EISHomeW;
  */
 public interface Autopilot {
 
-    void turnOnAutopilot();
+    void turnOnAutopilot(String name);
+
 
     void turnOffAutopilot();
 
