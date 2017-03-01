@@ -1,6 +1,4 @@
-package enumsHomeW;
-
-import java.util.Scanner;
+package HW5_Enums;
 
 /**
  * Created by Alex on 28.02.2017.

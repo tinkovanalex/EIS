@@ -1,4 +1,4 @@
-package enumsHomeW;
+package HW5_Enums;
 
 import java.util.Scanner;
 
