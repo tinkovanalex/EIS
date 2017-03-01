@@ -3,6 +3,7 @@ package EISClassW;
 /**
  * Created by Alex on 08.02.2017.
  */
+//public class Dog extends Animal implements Moveable, Comparable{
 public class Dog extends Animal implements Moveable{
     private String name;
     private int age;
@@ -115,4 +116,13 @@ public class Dog extends Animal implements Moveable{
         result = 31 * result + (int) sex;
         return result;
     }
+
+//    @Override
+//    public int compareTo(Object dogToCompare) {
+//        Dog anotherDog = (Dog) dogToCompare;
+//        if(anotherDog.getAge() > this.getAge()) return -1;
+//        else if (anotherDog.getAge() < this.getAge()) return 1;
+//        else return 0;
+//
+//    }
 }
