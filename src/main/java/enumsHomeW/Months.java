@@ -7,23 +7,33 @@ import java.util.Scanner;
  */
     public enum Months {
 
-    JANUARY (1),
-    FEBRUARY (2),
-    APRIL(4);
+    JANUARY (1, "winter"),
+    FEBRUARY (2, "winter"),
+    MARCH (3, "spring"),
+    APRIL (4, "spring"),
+    MAY (5, "spring"),
+    JUNE (6, "summer"),
+    JULY (7, "summer"),
+    AUGUST (8, "summer"),
+    SEPTEMBER (9, "autumn"),
+    OCT0BER (10, "autumn"),
+    NOVEMBER (11, "autumn"),
+    DECEMBER(12, "winter");
 
     int monthNumber;
+    String season;
 
-    Months(int monthNumber){
+    Months(int monthNumber, String season){
         this.monthNumber = monthNumber;
+        this.season = season;
+    }
+
+    public String getSeason() {
+        return season;
     }
 
     public int getMonthNumber() {
-        Scanner scanner = new Scanner(System.in);
-        if(scanner.hasNextInt()){
-            this.monthNumber = scanner.nextInt();
-        }
         return monthNumber;
+        }
     }
-
-}
 
