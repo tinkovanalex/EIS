@@ -17,7 +17,7 @@ public class StaticMain {
         System.out.println(shepherd);
     }
 
-//    public static void Main(String[] args) {
+//    public static void MatrixCalc(String[] args) {
 //
 //
 //
