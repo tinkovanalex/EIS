@@ -6,3 +6,5 @@
 
 #compile classes
 *.class
+*.iml
+target/generated-sources/

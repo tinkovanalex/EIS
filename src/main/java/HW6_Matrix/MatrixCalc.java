@@ -15,7 +15,7 @@ public class MatrixCalc {
         int m2[][] = makeMatrix();
         printMatrix(m2);
         printMatrix(matrixMultiplication(m1, m2));
-        testRez(arr1ForTest(), arr2ForTest());
+        //testRez(arr1ForTest(), arr2ForTest());
 
 
     }
